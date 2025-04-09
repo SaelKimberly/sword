@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+!locales.d
 
 # Compiled Object files
 *.slo
