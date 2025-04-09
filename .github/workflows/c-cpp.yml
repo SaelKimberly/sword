@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install build essentials
-      run: sudo apt-get install -y build-essential autotools-dev pkg-config libz-dev libclucene-dev libicu-dev libcurl4-gnutls-dev libtool m4 automake
+      run: sudo apt-get install -y build-essential libz-dev libclucene-dev libicu-dev libcurl4-gnutls-dev
     - name: autogen
       run: ./autogen.sh
     - name: usrinst
